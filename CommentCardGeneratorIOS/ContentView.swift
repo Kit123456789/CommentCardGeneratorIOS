@@ -8,8 +8,9 @@
 import SwiftUI
 
 struct ContentView: View {
+    @StateObject private var commentCard = CommentCard()
     var body: some View {
-        Text("Hello, world!")
+        Text(commentCard.generateCommentCard())
             .padding()
     }
 }

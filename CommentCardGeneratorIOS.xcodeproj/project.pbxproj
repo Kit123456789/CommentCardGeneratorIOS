@@ -13,6 +13,7 @@
 		9F3F978225FB9314000C5BF9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9F3F978125FB9314000C5BF9 /* Preview Assets.xcassets */; };
 		9F3F978D25FB9315000C5BF9 /* CommentCardGeneratorIOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F3F978C25FB9315000C5BF9 /* CommentCardGeneratorIOSTests.swift */; };
 		9F3F979825FB9315000C5BF9 /* CommentCardGeneratorIOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F3F979725FB9315000C5BF9 /* CommentCardGeneratorIOSUITests.swift */; };
+		9F44EF3B25FFB14C00D65236 /* CommentCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F44EF3A25FFB14C00D65236 /* CommentCard.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +46,7 @@
 		9F3F979325FB9315000C5BF9 /* CommentCardGeneratorIOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CommentCardGeneratorIOSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F3F979725FB9315000C5BF9 /* CommentCardGeneratorIOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentCardGeneratorIOSUITests.swift; sourceTree = "<group>"; };
 		9F3F979925FB9315000C5BF9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9F44EF3A25FFB14C00D65236 /* CommentCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentCard.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 				9F3F977E25FB9314000C5BF9 /* Assets.xcassets */,
 				9F3F978325FB9314000C5BF9 /* Info.plist */,
 				9F3F978025FB9314000C5BF9 /* Preview Content */,
+				9F44EF3A25FFB14C00D65236 /* CommentCard.swift */,
 			);
 			path = CommentCardGeneratorIOS;
 			sourceTree = "<group>";
@@ -260,6 +263,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9F3F977D25FB9312000C5BF9 /* ContentView.swift in Sources */,
+				9F44EF3B25FFB14C00D65236 /* CommentCard.swift in Sources */,
 				9F3F977B25FB9312000C5BF9 /* CommentCardGeneratorIOSApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
