@@ -7,13 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		9F3F977B25FB9312000C5BF9 /* CommentCardGeneratorIOSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F3F977A25FB9312000C5BF9 /* CommentCardGeneratorIOSApp.swift */; };
-		9F3F977D25FB9312000C5BF9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F3F977C25FB9312000C5BF9 /* ContentView.swift */; };
+		9F3357A2260B5037009097AB /* RootTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F3357A1260B5037009097AB /* RootTabView.swift */; };
+		9F3357B3260B5399009097AB /* DeadlineReminder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F3357B2260B5399009097AB /* DeadlineReminder.swift */; };
+		9F3357FC260B5976009097AB /* CommentCardGeneratorIOSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F3357FB260B5976009097AB /* CommentCardGeneratorIOSApp.swift */; };
+		9F3F977D25FB9312000C5BF9 /* CommentCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F3F977C25FB9312000C5BF9 /* CommentCardView.swift */; };
 		9F3F977F25FB9314000C5BF9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9F3F977E25FB9314000C5BF9 /* Assets.xcassets */; };
 		9F3F978225FB9314000C5BF9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9F3F978125FB9314000C5BF9 /* Preview Assets.xcassets */; };
 		9F3F978D25FB9315000C5BF9 /* CommentCardGeneratorIOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F3F978C25FB9315000C5BF9 /* CommentCardGeneratorIOSTests.swift */; };
 		9F3F979825FB9315000C5BF9 /* CommentCardGeneratorIOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F3F979725FB9315000C5BF9 /* CommentCardGeneratorIOSUITests.swift */; };
-		9F4435C82609E64700240DCB /* Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F4435C72609E64700240DCB /* Menu.swift */; };
 		9F44EF3B25FFB14C00D65236 /* CommentCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F44EF3A25FFB14C00D65236 /* CommentCard.swift */; };
 /* End PBXBuildFile section */
 
@@ -35,9 +36,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9F3357A1260B5037009097AB /* RootTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootTabView.swift; sourceTree = "<group>"; };
+		9F3357B2260B5399009097AB /* DeadlineReminder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeadlineReminder.swift; sourceTree = "<group>"; };
+		9F3357FB260B5976009097AB /* CommentCardGeneratorIOSApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentCardGeneratorIOSApp.swift; sourceTree = "<group>"; };
 		9F3F977725FB9312000C5BF9 /* CommentCardGeneratorIOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CommentCardGeneratorIOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		9F3F977A25FB9312000C5BF9 /* CommentCardGeneratorIOSApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentCardGeneratorIOSApp.swift; sourceTree = "<group>"; };
-		9F3F977C25FB9312000C5BF9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		9F3F977C25FB9312000C5BF9 /* CommentCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentCardView.swift; sourceTree = "<group>"; };
 		9F3F977E25FB9314000C5BF9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9F3F978125FB9314000C5BF9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		9F3F978325FB9314000C5BF9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -47,7 +50,6 @@
 		9F3F979325FB9315000C5BF9 /* CommentCardGeneratorIOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CommentCardGeneratorIOSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F3F979725FB9315000C5BF9 /* CommentCardGeneratorIOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentCardGeneratorIOSUITests.swift; sourceTree = "<group>"; };
 		9F3F979925FB9315000C5BF9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9F4435C72609E64700240DCB /* Menu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Menu.swift; sourceTree = "<group>"; };
 		9F44EF3A25FFB14C00D65236 /* CommentCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentCard.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -99,13 +101,14 @@
 		9F3F977925FB9312000C5BF9 /* CommentCardGeneratorIOS */ = {
 			isa = PBXGroup;
 			children = (
-				9F3F977A25FB9312000C5BF9 /* CommentCardGeneratorIOSApp.swift */,
-				9F3F977C25FB9312000C5BF9 /* ContentView.swift */,
 				9F3F977E25FB9314000C5BF9 /* Assets.xcassets */,
 				9F3F978325FB9314000C5BF9 /* Info.plist */,
 				9F3F978025FB9314000C5BF9 /* Preview Content */,
 				9F44EF3A25FFB14C00D65236 /* CommentCard.swift */,
-				9F4435C72609E64700240DCB /* Menu.swift */,
+				9F3357A1260B5037009097AB /* RootTabView.swift */,
+				9F3F977C25FB9312000C5BF9 /* CommentCardView.swift */,
+				9F3357B2260B5399009097AB /* DeadlineReminder.swift */,
+				9F3357FB260B5976009097AB /* CommentCardGeneratorIOSApp.swift */,
 			);
 			path = CommentCardGeneratorIOS;
 			sourceTree = "<group>";
@@ -265,10 +268,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9F3F977D25FB9312000C5BF9 /* ContentView.swift in Sources */,
+				9F3F977D25FB9312000C5BF9 /* CommentCardView.swift in Sources */,
+				9F3357FC260B5976009097AB /* CommentCardGeneratorIOSApp.swift in Sources */,
 				9F44EF3B25FFB14C00D65236 /* CommentCard.swift in Sources */,
-				9F4435C82609E64700240DCB /* Menu.swift in Sources */,
-				9F3F977B25FB9312000C5BF9 /* CommentCardGeneratorIOSApp.swift in Sources */,
+				9F3357B3260B5399009097AB /* DeadlineReminder.swift in Sources */,
+				9F3357A2260B5037009097AB /* RootTabView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
